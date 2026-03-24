@@ -30,3 +30,7 @@
 
 12. **Failure modes с конкретикой = высокая ценность** — не «агент может ошибиться», а «Loop of Death: агент в рефлексии 3+ итераций с ошибкой → timeout / stale result. Severity: критический. Mitigation: max_iterations=3 + early exit». Формат: название, сценарий, severity, mitigation, пример.
 
+## Правила из feedback (2026-03-24, ревью #3)
+
+13. **Повторная тема = обогащение accepted, не новая находка** — если тема уже в accepted.md (даже с правкой) — НЕ выводить как TOP-N finding. Вместо этого: отдельная секция «Обогащения accepted» с delta (что нового). Считать в метрике отчёта как enrichments, не findings. Пример: WISC уже accepted #2 → новые данные по Anthropic thesis → enrichment #2, не finding #5.
+
