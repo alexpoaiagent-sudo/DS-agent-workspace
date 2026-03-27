@@ -2,8 +2,8 @@
 type: agency-registry-extended
 version: 1.0
 created: 2026-03-27
-source: agency-agents (179) + DS-агентство (6)
-total: 185+
+source: agency-agents (179) + DS-агентство (7)
+total: 186+
 ---
 
 # Расширенный реестр агентов DS-агентства
@@ -20,6 +20,7 @@ total: 185+
 
 | Агент | Специализация | Файл |
 |-------|-------------|------|
+| 👑 Supreme HR | Подбор агентов под задачу из реестра 186+ | `agency/agents/supreme-hr.md` |
 | ☕ VK Coffee Analyst | Меню, рецептуры, стандарты кофейни | `agency/agents/vk-coffee-analyst.md` |
 | 🌳 Park Architect | Парк Голубинка, документы, РНС | `agency/agents/park-architect.md` |
 | 👥 HR Specialist | ГПХ, реквизиты ИП, кадры | `agency/agents/hr-specialist.md` |
